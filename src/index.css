@@ -1,13 +1,130 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sombra{
+    width: 100%;
+  }
+  .ftn {
+    bottom: 2%;
+  }
+  .navSm{
+    width: 30%;
+  }
+  .msgSm{
+    width: 70%;
+  }
+  .msgSm{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .prodFilter{
+    width: 40%;
+  }
+  .smartphone {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .responsive{
+    width: 80%;
+  }
+  .responsive article{
+    flex-direction: column-reverse;
+  }
+  .smartphone {
+    width: 90%;
+  }
+  .ftn {
+    width: 100%;
+    text-align: end;
+    padding: 8px;
+  }
+  .navSm{
+    width: 150px;
+    justify-content: space-between;
+  }
+  .msgSm{
+    width: 100%;
+  }
+  .aboutShop{
+    width: 80%;
+    height: 60%;
+  }
+  .backHeader{
+    height: 88px;
+  }
+}
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+header svg {
+  color: greenyellow;
+}
+li svg {
+  color: white;
+}
+h2,
+.ftn {
+  font-family: 'Dhurjati', sans-serif;
+}
+.cor:hover {
+  color: #111;
+}
+.styleNone{
+  display: none;
+}
+body{
+  background-color: #030303;
+}
+.custom-radio{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 10, 0); 
+  background-color: rgb(179, 179, 179);
+  outline: none;
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-radio:checked{
+  background-color: limegreen; 
 }
+
+.anime p {
+  letter-spacing: 1px;
+}
+
+.anime {
+  position: relative;
+  overflow: hidden ;
+  animation: slideText 6s infinite;
+  white-space: nowrap;
+}
+
+@keyframes slideText {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(150%);
+  }
+}
+
+/* 
+@keyframes slideText {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+} */
