@@ -23,7 +23,7 @@ const Header = ({setForm}) => {
                         className="
                         hover:text-lime-500 cursor-pointer"
                         >
-                            About
+                            Sobre
                         </li>
                     </Link>
                     <Link to='/message'>
@@ -34,7 +34,7 @@ const Header = ({setForm}) => {
                         border rounded-3xl px-4 py-1 bg-transparent font-bold hover:text-white
                         "
                         >
-                            contact
+                            Contato
                         </li>
                     </Link>
                 </ul>
