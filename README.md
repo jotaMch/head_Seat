@@ -1,24 +1,15 @@
-Getting Started with Create React App
-This project combines the power of Create React App with a robust back-end built using Node.js and MongoDB Atlas.
+# EletroHeadJM
 
-## Front-end
-Available Scripts
-In the project directory, you can run:
+EletroHeadJM é uma loja de eletrônicos especializada em headsets, oferecendo uma experiência excepcional de compras online. O projeto é desenvolvido em React e utiliza React Router para navegação entre páginas. Os usuários podem explorar uma variedade de produtos, visualizar detalhes e enviar mensagens de contato.
 
-npm start
-Runs the app in development mode.
-Open http://localhost:3000 to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+- Seleção de produtos com informações detalhadas
+- Formulário de contato para consultas
+- Navegação simples e intuitiva
 
-npm test
-Launches the test runner in interactive watch mode.
-See the running tests section for more information.
+## Tecnologias
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified, and the filenames include the hashes.
-Your app is ready to be deployed!
+- React
+- React Icons
+- Tailwind CSS
